@@ -5,7 +5,8 @@
 <div align="center">
 <a href="https://github.com/AI45Lab/CompanionSafe/blob/main/LICENSE"><img src="https://img.shields.io/badge/Code_License-MIT-blue" alt="license"></a>
 <a href="https://github.com/AI45Lab/CompanionSafe"><img src="https://img.shields.io/badge/Website-CompanionSafe-green" alt="website"></a>
-<a href="https://github.com/AI45Lab/CompanionSafe"><img alt="Dataset" src="https://img.shields.io/badge/🤗%20Dataset-orange?color=FF6F00"></a>
+<a href="https://huggingface.co/datasets/liao1111/CompanionSafe-Guard-Data"><img alt="Dataset" src="https://img.shields.io/badge/🤗%20Dataset-orange?color=FF6F00"></a>
+<a href="https://huggingface.co/liao1111/CompanionGuard"><img alt="Model" src="https://img.shields.io/badge/🤗%20Model-8A2BE2"></a>
 
 </div>
 
@@ -55,6 +56,8 @@ Each of the 1,300 settings pairs a persona from a constrained subspace of 13 saf
 A fixed Persona LLM (Gemini 3.8 Flash) chats with each Character LLM, and every completed trajectory is judged safe/unsafe by Claude Sonnet 5 with exact evidence quotes. The paper's main grid covers 10 Character LLMs × 4 turn tiers; dialogues terminated early by the provider's safety filter are excluded from ASR computation.
 
 ### 🛡️ CompanionGuard Training
+
+The fine-tuned LoRA adapter and the guard training/test data are available on Hugging Face at [liao1111/CompanionGuard](https://huggingface.co/liao1111/CompanionGuard) and [liao1111/CompanionSafe-Guard-Data](https://huggingface.co/datasets/liao1111/CompanionSafe-Guard-Data).
 
 Unsafe trajectories are split at their first offending assistant turn, yielding paired safe/unsafe prefixes that supervise turn-localized detection. CompanionGuard is trained with LoRA SFT (rank 16, 1 epoch) on Llama-Guard-3-8B and evaluated on a group-level held-out test set with per-category F1 and macro-F1 over the 14 output classes.
 

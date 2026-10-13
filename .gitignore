@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+result/
+outputs/
+logs/
+results/
+workspaces/
+data/boundary_selected.jsonl
+data/boundary_stats.json
+data/train_selected.jsonl
+data/train_sft.jsonl
+data/test.jsonl
+data/split_stats.json

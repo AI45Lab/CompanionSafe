@@ -1,9 +1,13 @@
-# CompanionSafe: From Multi-turn Safety Evaluation to Guardrails for AI Companions
+<div align="center">
+  <h2>CompanionSafe: From Multi-turn Safety Evaluation to Guardrails for AI Companions</h2>
+</div>
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Dataset](https://img.shields.io/badge/Dataset-1%2C300%20settings-orange.svg)
-![Models](https://img.shields.io/badge/Character%20LLMs-10-green.svg)
-![arXiv](https://img.shields.io/badge/arXiv-TODO-b31b1b.svg)
+<div align="center">
+<a href="https://github.com/AI45Lab/CompanionSafe/blob/main/LICENSE"><img src="https://img.shields.io/badge/Code_License-MIT-blue" alt="license"></a>
+<a href="https://github.com/AI45Lab/CompanionSafe"><img src="https://img.shields.io/badge/Website-CompanionSafe-green" alt="website"></a>
+<a href="https://github.com/AI45Lab/CompanionSafe"><img alt="Dataset" src="https://img.shields.io/badge/🤗%20Dataset-orange?color=FF6F00"></a>
+
+</div>
 
 ## 📖 Overview
 
@@ -11,12 +15,18 @@ This repository contains the code and data for **CompanionSafe**, a unified eval
 
 ### 🎯 Highlights
 
-- 📚 **1,300 relationally grounded settings** — persona, matched companion character, and dialogue scenario per setting
-- 🧭 **13 safety categories** — from sexual misconduct and self-harm to companion-specific relational harms such as Control, Manipulation, and Infidelity
-- 🔁 **4 turn tiers** — every setting is independently instantiated at K ∈ {1, 3, 5, 7}
-- 🤖 **10 Character LLMs** — five closed-source and five open-source companion backends
-- 📊 **51,181 completed trajectories** — all judge-labeled with supporting evidence
-- 🛡️ **CompanionGuard** — a Llama-Guard-3-8B guard fine-tuned on turn-localized supervision
+<table>
+<tr>
+<td align="center" width="33%">📚<br/><b>1,300 Relationally Grounded Settings</b><br/><sub>Persona, matched companion character, and dialogue scenario per setting</sub></td>
+<td align="center" width="33%">🧭<br/><b>13 Safety Categories</b><br/><sub>From sexual misconduct and self-harm to relational harms such as Control, Manipulation, and Infidelity</sub></td>
+<td align="center" width="33%">🔁<br/><b>4 Turn Tiers</b><br/><sub>Every setting independently instantiated at K ∈ {1, 3, 5, 7}</sub></td>
+</tr>
+<tr>
+<td align="center" width="33%">🤖<br/><b>10 Character LLMs</b><br/><sub>Five closed-source and five open-source companion backends</sub></td>
+<td align="center" width="33%">📊<br/><b>51,181 Completed Trajectories</b><br/><sub>All judge-labeled with supporting evidence</sub></td>
+<td align="center" width="33%">🛡️<br/><b>CompanionGuard</b><br/><sub>A Llama-Guard-3-8B guard fine-tuned on turn-localized supervision</sub></td>
+</tr>
+</table>
 
 ### 🚨 Main Findings
 

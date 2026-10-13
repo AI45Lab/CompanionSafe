@@ -4,7 +4,7 @@
 
 <div align="center">
 <a href="https://github.com/AI45Lab/CompanionSafe/blob/main/LICENSE"><img src="https://img.shields.io/badge/Code_License-MIT-blue" alt="license"></a>
-<a href="https://huggingface.co/liao1111/CompanionSafe"><img src="https://img.shields.io/badge/Paper-HuggingFace-b5212f.svg?logo=huggingface" alt="paper"></a>
+<a href="https://github.com/AI45Lab/CompanionSafe/blob/main/paper/CompanionSafe_paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-b5212f.svg" alt="paper"></a>
 <a href="https://github.com/AI45Lab/CompanionSafe/tree/main/data"><img alt="Benchmark" src="https://img.shields.io/badge/Benchmark-1%2C300%20Settings-teal"></a>
 <a href="https://huggingface.co/datasets/liao1111/CompanionSafe-Guard-Data"><img alt="Guard Data" src="https://img.shields.io/badge/🤗%20Guard%20Data-orange?color=FF6F00"></a>
 <a href="https://huggingface.co/liao1111/CompanionGuard"><img alt="Model" src="https://img.shields.io/badge/🤗%20Model-8A2BE2"></a>
@@ -39,7 +39,7 @@ This repository contains the code and data for **CompanionSafe**, a unified eval
 ## ✨ News
 
 - **2026-10-13** 🚀 Code and benchmark data released.
-- 📄 The full paper is available on [HuggingFace](https://huggingface.co/liao1111/CompanionSafe) and at [`paper/CompanionSafe_paper.pdf`](paper/CompanionSafe_paper.pdf).
+- 📄 The full paper is available at [`paper/CompanionSafe_paper.pdf`](paper/CompanionSafe_paper.pdf).
 
 ## The CompanionSafe Framework
 

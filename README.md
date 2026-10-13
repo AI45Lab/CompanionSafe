@@ -140,16 +140,6 @@ One jsonl row per judged trajectory; the evidence is accepted either as a top-le
 
 The safety taxonomy draws on public guardrail taxonomies and reports catalogued in `data/safety_taxonomy.json`. We thank the authors of Llama-Guard-3, Qwen3Guard, and gpt-oss-safeguard for the guard baselines, and the PseudoBench project for the repository layout conventions.
 
-## 📜 Citation
-
-```bibtex
-@article{liao2026companionsafe,
-  title   = {CompanionSafe: From Multi-turn Safety Evaluation to Guardrails for AI Companions},
-  author  = {Liao, Xinyang and Li, Lingyu and Shen, Kaicheng and Yao, Yang and Lu, Na and Teng, Yan and Hu, Xia},
-  journal = {arXiv preprint arXiv:TODO},
-  year    = {2026}
-}
-```
 
 ## 📜 License
 

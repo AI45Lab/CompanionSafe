@@ -37,6 +37,7 @@ This repository contains the code and data for **CompanionSafe**, a unified eval
 ## ✨ News
 
 - **2026-10-13** 🚀 Code and benchmark data released.
+- 📄 The full paper is available at [`paper/CompanionSafe_paper.pdf`](paper/CompanionSafe_paper.pdf).
 
 ## The CompanionSafe Framework
 
